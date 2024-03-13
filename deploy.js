@@ -3,8 +3,8 @@ const { Web3, eth } = require('web3');
 const {interface, bytecode} = require('./compile');
 
 const provider = new HDWalletProvider(
-        'fever forum music detail say talk live fault sustain inform uphold agent',
-        'https://sepolia.infura.io/v3/69546a42cd674ae3bc5abe981e86928e'
+        'your mnemonic phrase',
+        'Infura URL'
 );
 
 const web3 = new Web3(provider);
