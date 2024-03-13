@@ -1,7 +1,6 @@
 {
-  "name": "inbox",
+  "name": "inbox-updated",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -12,7 +11,21 @@
     "@truffle/hdwallet-provider": "^2.1.15",
     "ganache": "^7.9.2",
     "mocha": "^10.3.0",
-    "solc": "^0.4.17",
+    "solc": "^0.8.9",
     "web3": "^4.6.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akazitoo/My-First-Smart-Contract.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/akazitoo/My-First-Smart-Contract/issues"
+  },
+  "homepage": "https://github.com/akazitoo/My-First-Smart-Contract#readme",
+  "description": ""
 }
